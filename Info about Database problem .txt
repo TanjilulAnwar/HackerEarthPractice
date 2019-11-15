@@ -1,0 +1,1 @@
+The DataBase problem Has input issue with C language but can easily be done with C++
