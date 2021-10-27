@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int id = 79;
+string name = "dipto";
+
+pair<int,string> person;
+
+person = {id,name};
+
+vector<pair<int,string>> list;
+
+
+list.push_back({1,"a"});
+list.push_back({2,"b"});
+list.push_back({3,"c"});
+list.push_back({4,"d"});
+list.push_back({5,"e"});
+
+auto it = list.begin();
+
+for(; it != list.end();it++){
+cout <<"name "<< it->second << " id "<<it->first<<endl;
+
+}
+
+person = list[3];
+
+for(auto item:list){
+cout <<"name "<< item.second << " id "<<item.first<<endl;
+
+}
+
+return 0;
+} 
