@@ -14,7 +14,7 @@ if(s[i] == '('){
   stk.push(s[i]);
 }
 else if(s[i] == ')'){
-  stk.pop();
+  stk.pop();//this will  cause underflow if stack is empty
 }
 else{
 //do nothing
